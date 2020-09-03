@@ -1,2 +1,57 @@
 # VSCode-config
 My VSCode config.Feel free to adopt it if you like it.
+
+Copy the config from here
+
+```json
+{
+  "workbench.startupEditor": "newUntitledFile",
+  "workbench.iconTheme": "material-icon-theme",
+  "editor.formatOnSave": true,
+  "terminal.integrated.shell.osx": "/bin/zsh",
+  "window.zoomLevel": 0.5,
+  "editor.fontSize": 17,
+  "explorer.confirmDelete": false,
+  "editor.suggestSelection": "first",
+  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+  "workbench.colorTheme": "Ninja Ui Vibrant",
+  "explorer.confirmDragAndDrop": false,
+  "editor.fontFamily": "Menlo, Monaco, 'Courier New', monospace, Menlo",
+
+  "editor.tokenColorCustomizations": {
+    "textMateRules": [
+      {
+        "scope": ["punctuation.separator.key-value"],
+        "settings": {
+          "foreground": "#4695FF"
+        }
+      },
+      {
+        "scope": ["support.constant.property-value.css"],
+        "settings": {
+          "foreground": "#4695FF"
+        }
+      },
+      {
+        "scope": ["constant.numeric"],
+        "settings": {
+          "foreground": "#2CC7DA"
+        }
+      },
+      {
+        "scope": ["keyword.other.unit"],
+        "settings": {
+          "foreground": "#2CC7DA"
+        }
+      },
+      {
+        "scope": ["support.type.property-name"],
+        "settings": {
+          "foreground": "#B275FF"
+        }
+      }
+    ]
+  }
+}
+
+```
