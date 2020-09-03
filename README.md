@@ -9,7 +9,7 @@ Copy the config from here
   "workbench.iconTheme": "material-icon-theme",
   "editor.formatOnSave": true,
   "terminal.integrated.shell.osx": "/bin/zsh",
-  "window.zoomLevel": 0.5,
+  "window.zoomLevel": 0,
   "editor.fontSize": 17,
   "explorer.confirmDelete": false,
   "editor.suggestSelection": "first",
@@ -20,12 +20,6 @@ Copy the config from here
 
   "editor.tokenColorCustomizations": {
     "textMateRules": [
-      {
-        "scope": ["punctuation.separator.key-value"],
-        "settings": {
-          "foreground": "#4695FF"
-        }
-      },
       {
         "scope": ["support.constant.property-value.css"],
         "settings": {
@@ -48,6 +42,12 @@ Copy the config from here
         "scope": ["support.type.property-name"],
         "settings": {
           "foreground": "#B275FF"
+        }
+      },
+      {
+        "scope": ["entity.other.attribute-name"],
+        "settings": {
+          "foreground": "#248bcc"
         }
       }
     ]
