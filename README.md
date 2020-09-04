@@ -43,12 +43,6 @@ Copy the config from here
         "settings": {
           "foreground": "#B275FF"
         }
-      },
-      {
-        "scope": ["entity.other.attribute-name"],
-        "settings": {
-          "foreground": "#248bcc"
-        }
       }
     ]
   }
