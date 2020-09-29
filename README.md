@@ -4,6 +4,8 @@ My VSCode config.Feel free to adopt it if you like it.
 Copy the config from here
 
 ```json
+// Theme color Classes can be found here!!!
+//https://code.visualstudio.com/api/references/theme-color
 {
   "workbench.startupEditor": "newUntitledFile",
   "workbench.iconTheme": "material-icon-theme",
@@ -17,7 +19,10 @@ Copy the config from here
   "workbench.colorTheme": "Ninja Ui Vibrant",
   "explorer.confirmDragAndDrop": false,
   "editor.fontFamily": "Menlo, Monaco, 'Courier New', monospace, Menlo",
-
+  "workbench.colorCustomizations": {
+    "inputValidation.errorBackground": "#1D252C",
+    "inputValidation.errorBorder": "#bbbbbb"
+  },
   "editor.tokenColorCustomizations": {
     "textMateRules": [
       {
@@ -42,6 +47,12 @@ Copy the config from here
         "scope": ["support.type.property-name"],
         "settings": {
           "foreground": "#B275FF"
+        }
+      },
+      {
+        "scope": ["variable.parameter.function"],
+        "settings": {
+          "foreground": "#F76693"
         }
       }
     ]
